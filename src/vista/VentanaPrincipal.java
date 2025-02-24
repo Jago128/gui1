@@ -41,7 +41,6 @@ public class VentanaPrincipal extends JFrame implements ActionListener {
 
 	@Override
 	public void actionPerformed(ActionEvent e) {
-		// TODO Auto-generated method stub
 		if (e.getSource()==btnNewButton) {
 			try {
 				VentanaSecundaria dialog = new VentanaSecundaria(VentanaPrincipal.this);
